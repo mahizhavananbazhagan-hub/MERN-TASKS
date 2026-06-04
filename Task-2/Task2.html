@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        fieldset{
+            width: 100px;
+            border: 1px solid #aaa;
+            padding: 16px 24px; 
+            margin: 40px auto;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <form action="post">
+        <fieldset style="align-self: center; align-items: center; align-content: center;">
+            <legend>User personal information</legend>
+            <label for="fname">Enter your full name</label>
+            <br>
+            <input placeholder="Rahul Kumar" type="text" style="width: 350px;
+            height: 25px; background-color: #dce9f5;border-radius: 5px; border-color: grey; border-width: 0px;" id="fname">
+            <br><br>
+            <label for="mail">Enter your email</label>
+            <br>
+            <input type="email" placeholder="geeks@12345gmail.com"  style="width: 350px; height: 25px; background-color: #dce9f5; border-radius: 5px; border-color:rgb(174, 168, 168);border-width: 0px;" id="mail"><br><br>
+            <label for="epas">Enter your password</label><br>
+            <input type="password" id="epas" style="width: 350px;
+            height: 25px; border-radius: 5px; border-color:rgb(174, 168, 168);border-width: 2px;">
+            <br><br>
+            <label for="cpas">Confirm your password</label>
+            <br>
+            <input type="password" name="" id="cpas"  style="width: 350px;
+            height: 25px; border-radius: 5px; border-color: rgb(174, 168, 168); border-width: 2px;">
+            <br><br>
+            <label for="male">Enter your gender</label>
+            <br>
+            <input type="radio" checked name="a" id="male"><label for="male">Male</label>
+            <input type="radio" name="a" id="fmale"><label for="fmale">Female</label>
+            <input type="radio" name="a" id="fmal"><label for="fmal">Others</label>
+            <br><br>
+            <label for="dob">Enter your Date of Birth</label>
+            <br>
+            <input type="date" id="dob" value="2009-06-10" style="width: 350px;
+            height: 25px; border-radius: 5px; border-color: rgb(174, 168, 168); border-width: 2px;">
+            <br><br>
+            <label for="ad">Enter your Address</label>
+            <br>
+            <textarea style="width: 350px;
+            height: 30px; border-radius: 5px; border-color: rgb(174, 168, 168); border-width: 2px;" id="ad" placeholder="Noida Sector 137"></textarea>
+            <br>
+            <button type="submit" style="height: 30px; width: 70px; border-radius: 5px;">submit</button>
+        </fieldset>
+    </form>
+</body>
+</html>
